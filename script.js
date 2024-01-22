@@ -1,7 +1,7 @@
  const output = document.querySelector("h2");
 
  const countDown = () => {
-    const yourDate = new Date("2024-01-01");
+    const yourDate = new Date("2025-01-01");
 
     const countDownDate = new Date(yourDate).getTime();
     const now = new Date().getTime();
